@@ -1,0 +1,239 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Pookie's Birthday
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .hidden-feature {
+            display: none;
+        }
+        .hexagon {
+            position: relative;
+            width: 100%;
+            padding-bottom: 86.6%;
+            background-color: white;
+            margin: 1rem 0;
+            clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .hexagon:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 105, 180, 0.5);
+        }
+        .hexagon img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+            transition: opacity 0.3s ease-in-out;
+        }
+        .hexagon:hover img {
+            opacity: 0.3;
+        }
+        .hexagon-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 1rem;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .hexagon:hover .hexagon-content {
+            opacity: 1;
+        }
+  </style>
+ </head>
+ <body class="bg-pink-100 text-gray-800">
+  <header class="bg-pink-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <center>
+    <h1 class="text-3xl font-bold font-great-vibes">
+         Pookie's Birthday
+    </h1>
+    </center>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="mb-8">
+    <center>
+    <h2 class="text-2xl font-bold mb-4 font-great-vibes">
+     Welcome, My Love
+    </h2>
+    </center>
+    <center>
+    <p class="mb-4">
+     This is a special place just for you. Explore the sections below to discover some surprises.
+    </p>
+    </center>
+   </section>
+   
+   
+   
+   <section class="mb-8">
+    <h2 class="text-2xl font-bold mb-4 font-great-vibes">
+     Our Memories...!!
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+     <article class="hexagon">
+      <img alt="A romantic sunset at the beach with a couple holding hands" src="https://storage.googleapis.com/a1aa/image/0LBpOUEiKeVOY6TqsPZZgOq2fMXCp65Cg5fRPUh7T9e2lFJPB.jpg"/>
+      <div class="hexagon-content">
+       <h3 class="text-lg font-bold mb-2">
+        Chikmagalur
+       </h3>
+       <p class="mb-4">
+        Remember our first trip together? It was magical.
+       </p>
+      </div>
+     </article>
+     <article class="hexagon">
+      <img alt="A couple having a picnic in a beautiful park" src="https://storage.googleapis.com/a1aa/image/1mfoE8pgCmWXPSMSsevrfFGmSHkX4tVobh6Dbsoq441xyiknA.jpg"/>
+      <div class="hexagon-content">
+       <h3 class="text-lg font-bold mb-2">
+        Night ride in the bus
+       </h3>
+       <p class="mb-4">
+        Our picnic was so much fun. I cherish those moments.
+       </p>
+      </div>
+     </article>
+     <article class="hexagon">
+      <img alt="A couple dancing under the stars" src="https://storage.googleapis.com/a1aa/image/GYlNqHV6re18GCrsfwJns2P1PdXV8xh61fxExYdIPQ6flFJPB.jpg"/>
+      <div class="hexagon-content">
+       <h3 class="text-lg font-bold mb-2">
+        Meenakshipura
+       </h3>
+       <p class="mb-4">
+        Remember our first Date...<3
+       </p>
+      </div>
+     </article>
+     <article class="hexagon">
+      <img alt="A couple enjoying a romantic dinner with candlelight" src="https://storage.googleapis.com/a1aa/image/P7i9D11lZkpBAdNsuKnPPC6rBx7OjcS7dYrSkvms2HkWWk8E.jpg"/>
+      <div class="hexagon-content">
+       <h3 class="text-lg font-bold mb-2">
+        Candlelight Dinner
+       </h3>
+       <p class="mb-4">
+        Our candlelight dinner was so romantic. I loved every moment.
+       </p>
+      </div>
+     </article>
+     <article class="hexagon">
+      <img alt="A couple taking a selfie with a beautiful mountain backdrop" src="https://storage.googleapis.com/a1aa/image/xh7Le8MZnb1eQECjKCux6UQd0plSH2dAqMcONn6NufG4yiknA.jpg"/>
+      <div class="hexagon-content">
+       <h3 class="text-lg font-bold mb-2">
+        Mountain Adventure
+       </h3>
+       <p class="mb-4">
+        Our mountain adventure was thrilling. I loved exploring with you.
+       </p>
+      </div>
+     </article>
+     <article class="hexagon">
+      <img alt="A couple watching fireworks together" src="https://storage.googleapis.com/a1aa/image/FTllO8BSYkLjLJ3gZzlbVaN1jkIXBnibNAQ8PEJ2k3KYWk8E.jpg"/>
+      <div class="hexagon-content">
+       <h3 class="text-lg font-bold mb-2">
+        Fireworks Night
+       </h3>
+       <p class="mb-4">
+        Watching fireworks with you was spectacular. I felt so close to you.
+       </p>
+      </div>
+     </article>
+     <article class="hexagon">
+        <img alt="A couple enjoying a romantic dinner with candlelight" src="https://storage.googleapis.com/a1aa/image/P7i9D11lZkpBAdNsuKnPPC6rBx7OjcS7dYrSkvms2HkWWk8E.jpg"/>
+        <div class="hexagon-content">
+         <h3 class="text-lg font-bold mb-2">
+          Candlelight Dinner
+         </h3>
+         <p class="mb-4">
+          Our candlelight dinner was so romantic. I loved every moment.
+         </p>
+        </div>
+       </article>
+       <article class="hexagon">
+        <img alt="A couple taking a selfie with a beautiful mountain backdrop" src="https://storage.googleapis.com/a1aa/image/xh7Le8MZnb1eQECjKCux6UQd0plSH2dAqMcONn6NufG4yiknA.jpg"/>
+        <div class="hexagon-content">
+         <h3 class="text-lg font-bold mb-2">
+          Mountain Adventure
+         </h3>
+         <p class="mb-4">
+          Our mountain adventure was thrilling. I loved exploring with you.
+         </p>
+        </div>
+       </article>
+       <article class="hexagon">
+        <img alt="A couple watching fireworks together" src="https://storage.googleapis.com/a1aa/image/FTllO8BSYkLjLJ3gZzlbVaN1jkIXBnibNAQ8PEJ2k3KYWk8E.jpg"/>
+        <div class="hexagon-content">
+         <h3 class="text-lg font-bold mb-2">
+          Fireworks Night
+         </h3>
+         <p class="mb-4">
+          Watching fireworks with you was spectacular. I felt so close to you.
+         </p>
+        </div>
+       </article>
+    </div>
+    <center>
+    <button class="bg-pink-600 text-white px-4 py-2 rounded" id="toggleFeature">
+        Reveal Surprise
+    </button>
+    </center>
+    <section class="hidden-feature mb-8" id="hiddenFeature">
+        <center>
+        <h2 class="text-2xl font-bold mb-4 font-great-vibes">
+         Surprise!
+        </h2>
+        <p class="mb-4">
+         You have unlocked a special message just for you. I love you more than words can say.
+        </p>
+        <ul class="list-disc pl-5">
+
+         <ul>
+          You are my sunshine on a cloudy day.
+         </ul>
+         <ul>
+          Every moment with you is a treasure.
+         </ul>
+         <ul>
+          I can't wait to create more beautiful memories with you.
+         </ul>
+        </ul>
+        </center>
+       </section>
+   </section>
+  </main>
+  <footer class="bg-pink-600 text-white p-4">
+   <div class="container mx-auto text-center">
+    <p>
+     You Have All Rights To Be Reserved For ME....<3
+    </p>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('toggleFeature').addEventListener('click', function() {
+            const hiddenFeature = document.getElementById('hiddenFeature');
+            if (hiddenFeature.classList.contains('hidden-feature')) {
+                hiddenFeature.classList.remove('hidden-feature');
+            } else {
+                hiddenFeature.classList.add('hidden-feature');
+            }
+        });
+  </script>
+ </body>
+</html>
